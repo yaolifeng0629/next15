@@ -15,4 +15,6 @@ model User {
     follwers     Int      @default(0)
     isActive     Boolean  @default(true)
     registeredAt DateTime @default(now())
+
+    // @@map("users") // table name
 }
