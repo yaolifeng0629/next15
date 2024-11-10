@@ -16,5 +16,5 @@ model User {
     isActive     Boolean  @default(true)
     registeredAt DateTime @default(now())
 
-    // @@map("users") // table name
+    @@map("user")
 }
